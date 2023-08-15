@@ -1,10 +1,10 @@
-#include "main.h" 
+#include "main.h"
+
 /**
- *main - prints putchar 
- *_putchar - writes the character c to stdout
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main - prints putchar
+ * Return: 0 when success
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -16,4 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+	return (0);
+
 }
