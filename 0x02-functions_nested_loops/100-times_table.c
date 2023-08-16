@@ -16,7 +16,7 @@ void print_times_table(int b)
 	_putchar('0');
 	for (multp = 1; multp <= b; multp++)
 	{
-	_putchar('.');
+	_putchar(',');
 	_putchar(' ');
 	prod = num * multp;
 	if (prod <= 99)
