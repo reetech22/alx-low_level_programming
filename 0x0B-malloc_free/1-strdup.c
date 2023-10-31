@@ -7,7 +7,7 @@
 *
 * @str: string to be duplicated
 *
-* Return: A pointer to the duplicated(twin) string on success or NULL if it fails
+* Return: A pointer to the duplicated(twin) string on succes
 */
 
 char *_strdup(char *str)
